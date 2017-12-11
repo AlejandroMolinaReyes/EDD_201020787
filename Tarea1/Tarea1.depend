@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1512969134 source:c:\users\alejandro\documents\github\edd_201020787\tarea1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"listadoble.h"
+
+1512969055 c:\users\alejandro\documents\github\edd_201020787\tarea1\listadoble.h
+	<stdio.h>
+	<stdlib.h>
+
+1512970548 source:c:\users\alejandro\documents\github\edd_201020787\tarea1\listadoble.c
+	"listadoble.h"
+	<string.h>
+
