@@ -1,0 +1,37 @@
+digraph G {
+ subgraph clusterAviones { label = "Llegadas de aviones";
+     "A1" [ label = " Avion =A1\nPasajeros=8\nDesabordaje=1\nMantenimiento=1"];
+     "A2" [ label = " Avion =A2\nPasajeros=6\nDesabordaje=1\nMantenimiento=1"];
+     "A3" [ label = " Avion =A3\nPasajeros=7\nDesabordaje=1\nMantenimiento=1"];
+     "A4" [ label = " Avion =A4\nPasajeros=6\nDesabordaje=1\nMantenimiento=1"];
+
+     A1-> A2
+     A2-> A3
+     A2-> A1
+     A3-> A4
+     A3-> A2
+     A4-> A3
+ }
+
+ subgraph clusterDesabordaje {
+     label = "Desabordaje";
+     d -> f
+ }
+ subgraph clusterEscritorio {
+     label = "Escritorios de registros";
+     C -> D;
+ }
+ subgraph clusterEquipaje {
+     node [shape="box"];
+     label = "Equipaje";
+     H -> L;
+ }
+ subgraph clusterMantenimiento {
+     label = "Matenimiento";
+     O -> P;
+     M -> N;
+     Y -> Z;
+     G -> S;
+ }
+}
+

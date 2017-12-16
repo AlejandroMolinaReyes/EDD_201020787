@@ -1,0 +1,25 @@
+digraph G {
+ subgraph clusterAviones {
+     label = "Llegadas de aviones";rank=same
+     a -> b;
+ }
+ subgraph clusterDesabordaje {
+     label = "Desabordaje";
+     d -> f
+ }
+ subgraph clusterEscritorio {
+     label = "Escritorios de registros";
+     C -> D;
+ }
+ subgraph clusterEquipaje {
+     node [shape="box"];
+     label = "Equipaje";
+     H -> L;
+ }
+ subgraph clusterMantenimiento {
+     label = "Matenimiento";
+     O -> P;
+     M -> N;
+ }
+}
+
