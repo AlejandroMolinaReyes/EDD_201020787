@@ -4,13 +4,31 @@ digraph G {
      "A2" [ label = " Avion =A2\nPasajeros=6\nDesabordaje=1\nMantenimiento=1"];
      "A3" [ label = " Avion =A3\nPasajeros=7\nDesabordaje=1\nMantenimiento=1"];
      "A4" [ label = " Avion =A4\nPasajeros=6\nDesabordaje=1\nMantenimiento=1"];
+     "A5" [ label = " Avion =A5\nPasajeros=8\nDesabordaje=1\nMantenimiento=1"];
+     "A6" [ label = " Avion =A6\nPasajeros=8\nDesabordaje=1\nMantenimiento=1"];
+     "A7" [ label = " Avion =A7\nPasajeros=5\nDesabordaje=1\nMantenimiento=1"];
+     "A8" [ label = " Avion =A8\nPasajeros=7\nDesabordaje=1\nMantenimiento=1"];
+     "A9" [ label = " Avion =A9\nPasajeros=7\nDesabordaje=1\nMantenimiento=1"];
+     "A10" [ label = " Avion =A10\nPasajeros=7\nDesabordaje=1\nMantenimiento=1"];
 
      A1-> A2
      A2-> A3
      A2-> A1
      A3-> A4
      A3-> A2
+     A4-> A5
      A4-> A3
+     A5-> A6
+     A5-> A4
+     A6-> A7
+     A6-> A5
+     A7-> A8
+     A7-> A6
+     A8-> A9
+     A8-> A7
+     A9-> A10
+     A9-> A8
+     A10-> A9
  }
 
  subgraph clusterDesabordaje {

@@ -7,6 +7,7 @@
 #include <graficar.h>
 #include <coladoble.h>
 #include <avion.h>
+#include <colasimple.h>
 
 namespace Ui {
 class MainWindow;
@@ -29,6 +30,7 @@ private:
     bool validarInicio;
     int turnoActual;
     colaDoble *colaAviones;
+    colaSimple *colaPasajeros;
     Ui::MainWindow *ui;
 };
 

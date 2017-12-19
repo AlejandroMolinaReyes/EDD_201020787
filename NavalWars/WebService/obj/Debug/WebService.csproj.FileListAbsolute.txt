@@ -1,0 +1,7 @@
+C:\Users\alejandro\Documents\GitHub\EDD_201020787\NavalWars\WebService\bin\WebService.dll.config
+C:\Users\alejandro\Documents\GitHub\EDD_201020787\NavalWars\WebService\bin\WebService.dll
+C:\Users\alejandro\Documents\GitHub\EDD_201020787\NavalWars\WebService\bin\WebService.pdb
+C:\Users\alejandro\Documents\GitHub\EDD_201020787\NavalWars\WebService\obj\Debug\WebService.csprojResolveAssemblyReference.cache
+C:\Users\alejandro\Documents\GitHub\EDD_201020787\NavalWars\WebService\obj\Debug\WebService.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Documents\GitHub\EDD_201020787\NavalWars\WebService\obj\Debug\WebService.dll
+C:\Users\alejandro\Documents\GitHub\EDD_201020787\NavalWars\WebService\obj\Debug\WebService.pdb

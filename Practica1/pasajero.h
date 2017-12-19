@@ -6,7 +6,7 @@
 class Pasajero
 {
 public:
-    Pasajero();
+    Pasajero(QString id,int numeroMaletas,int numeroDocumentos,int numeroTurnos);
     QString id;
     int numeroMaletas;
     int numeroDocumentos;

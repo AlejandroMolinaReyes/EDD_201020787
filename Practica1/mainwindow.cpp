@@ -65,6 +65,10 @@ void MainWindow::on_siguenteButton_clicked()
             contadorAviones++;
         }
         //------------------ Pasajeros
+        colaPasajeros = (colaSimple*)malloc(sizeof(colaSimple));
+        inicializarColaSimple(colaPasajeros);
+        //pushSimple();
+
 
         //------------------ Escritorios
         int numeroEscrtorios = ui->numeroEscritorio->text().toInt();
